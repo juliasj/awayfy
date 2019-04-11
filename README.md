@@ -1,4 +1,4 @@
-# Awayfy Landing Page
+# Awayfy
 
 Responsive landing page for Awayfy, which would offer holiday houses for rent.
 
