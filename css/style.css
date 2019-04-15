@@ -72,7 +72,29 @@ body {
 
 .sidebar {
   grid-column: sidebar-start / sidebar-end;
-  grid-row: 1 / -1; }
+  grid-row: 1 / -1;
+  background-color: #5c5cff;
+  display: flex;
+  justify-content: center; }
+
+.nav-btn {
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  margin-top: 4rem;
+  background-color: #fff;
+  width: 4.5rem;
+  height: 2px; }
+  .nav-btn::before, .nav-btn::after {
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 4.5rem;
+    height: 2px; }
+  .nav-btn::before {
+    transform: translateY(-1.5rem); }
+  .nav-btn::after {
+    transform: translateY(1.3rem); }
 
 .header {
   grid-column: full-start / col-end 6; }
